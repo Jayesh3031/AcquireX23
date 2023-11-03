@@ -58,7 +58,7 @@ h6 {
 }
 
 .cs-primary_font {
-  font-family: "Poppins", sans-serif;
+  font-family: auto;
 }
 
 .cs-secondary_font {
@@ -211,7 +211,7 @@ input, textarea {
   top: 0;
   width: 100%;
   height: 100vh;
-  background-color: #181818;
+  background-color: white;
 }
 
 .cs-preloader_bg {
@@ -372,7 +372,7 @@ input, textarea {
     height: 125px;
   }
   .cs-height_130 {
-    height: 130px;
+    height: 44px;
   }
   .cs-height_135 {
     height: 135px;
@@ -384,7 +384,7 @@ input, textarea {
     height: 145px;
   }
   .cs-height_150 {
-    height: 150px;
+    height: 80px;
   }
   .cs-height_155 {
     height: 155px;
@@ -757,7 +757,7 @@ hr {
 }
 
 .cs-gray_bg {
-  background-color: #181818;
+  background-color: white;
 }
 
 .cs-accent_bg_1,
@@ -875,9 +875,9 @@ hr {
   background-color: #FEFEFE;
 }
 
-.cs-gradient_bg_1 {
+/* .cs-gradient_bg_1 {
   background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
-}
+}*/
 
 .cs-text_btn {
   display: -webkit-inline-box;
@@ -887,7 +887,7 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 600;
-  color: #fff;
+  color: black;
 }
 .cs-text_btn svg {
   margin-left: 15px;
@@ -1002,7 +1002,7 @@ hr {
 }
 .cs-btn.cs-style1.cs-type1 {
   border: 2px solid #fff;
-  background-color: transparent;
+  background-color: orangered;
   border-radius: 5px;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
@@ -1960,7 +1960,7 @@ label {
   z-index: 3;
 }
 .cs-shape_wrap_6 .cs-shape_2 > div {
-  background-color: #181818;
+  background-color: white;
 }
 .cs-shape_wrap_6 .cs-shape_2:nth-child(1) {
   left: -240px;
@@ -1991,7 +1991,7 @@ label {
 }
 
 .cs-page_heading.cs-style1 {
-  height: 650px;
+  height: 340px;
   padding: 120px 0 50px;
   position: relative;
 }
@@ -2017,7 +2017,7 @@ label {
 .cs-page_heading.cs-style1 .breadcrumb {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
+          justify-content: center;
   margin-bottom: 0;
   color: #999696;
 }
@@ -2186,7 +2186,7 @@ label {
 }
 
 .lg-backdrop {
-  background-color: #181818;
+  background-color: white;
 }
 
 .lg-toolbar .lg-icon,
@@ -2998,13 +2998,13 @@ label {
 .slider-for .slick-arrow {
   width: 60px;
   height: 35px;
-  border: 2px solid #fff;
+  border: 2px solid black;
   border-radius: 5px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   overflow: hidden;
-  background-color: transparent;
+  background-color: black;
   outline: none;
   color: transparent;
   background-repeat: no-repeat;
@@ -3598,7 +3598,7 @@ label {
 .cs-side_header .cs-side_header_in {
   width: 500px;
   height: 100vh;
-  background-color: #181818;
+  background-color: black;
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
@@ -3802,7 +3802,7 @@ label {
         -ms-flex-align: center;
             align-items: center;
     height: 100%;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.6em;
     color: #fff;
   }
@@ -5373,7 +5373,7 @@ label {
     margin-bottom: 15px;
   }
   .cs-hero.cs-style3 .cs-hero_title {
-    font-size: 90px;
+    font-size: 125px;
     line-height: 1.4em;
   }
   .cs-hero.cs-style1.cs-type2 {
@@ -7521,7 +7521,7 @@ label {
           justify-content: center;
   height: calc(100% - 2px);
   width: 34px;
-  background-color: #181818;
+  background-color: white;
   border-radius: 5px;
 }
 
@@ -8525,4 +8525,22 @@ html .ui-button.ui-state-disabled:active {
     margin-left: auto;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.btTextLogo{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+background-repeat: no-repeat;
+text-decoration: none;
+transition: all 200ms ease;
+color: inherit;
+outline: none;
+font-size: 1.8em;
+z-index: 6;
+font-family: "DM Serif Display",Arial,Helvetica,sans-serif;
+letter-spacing: -1px;
+font-weight: 400;
+line-height: 48px;
+font-family:"spartan",Arial, Helvetica, sans-serif;
+}
 

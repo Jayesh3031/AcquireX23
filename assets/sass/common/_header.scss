@@ -178,7 +178,7 @@
   .cs-side_header_in {
     width: 500px;
     height: 100vh;
-    background-color: #181818;
+    background-color: white;
     flex: none;
     margin-left: auto;
     overflow: auto;
@@ -439,7 +439,7 @@
 
       ul {
         width: 260px;
-        background-color: #181818;
+        background-color: white;
         position: absolute;
         box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
         border-top: 2px solid $accent;
@@ -614,7 +614,7 @@
       position: absolute;
       width: 100vw;
       left: -15px;
-      background-color: #181818;
+      background-color: white;
       padding: 10px 0;
       display: none;
       top: 100%;

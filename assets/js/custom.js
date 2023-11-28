@@ -312,7 +312,24 @@
                 }
             });
         }
-
+// Initialize FullPage.js
+new fullpage('#fullpage', {
+    // FullPage.js options
+    autoScrolling: true,
+    scrollHorizontally: true,
+    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+    // Add other options as needed
+  });
+  
+  // Initialize Swiper inside the section
+  new Swiper('.cs-slider_container', {
+    // Swiper options
+    autoplay: {
+      delay: 5000,
+    },
+    // Add other options as needed
+  });
+  
         /*****************************
          *  Client Speak opt4  *
          ******************************/
